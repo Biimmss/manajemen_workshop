@@ -30,7 +30,7 @@ Setiap pelanggan dapat melakukan satu atau lebih pesanan perbaikan.
 Relasi: One-to-Many
 
 ## 3. **Vehicles ke RepairOrders**:
-Setiap kendaraan dapat memiliki banyak pesanan perbaikan terkait.  
+Setiap kendaraan dapat memiliki banyak pesanan perbaikan.  
 Relasi: One-to-Many
 
 ## 4. **Mechanics ke RepairOrders**:
@@ -38,15 +38,15 @@ Setiap pesanan perbaikan ditangani oleh satu mekanik.
 Relasi: One-to-Many
 
 ## 5. **RepairOrders ke RepairDetails**:
-Setiap pesanan perbaikan memiliki satu atau lebih detail perbaikan terkait.  
+Setiap pesanan perbaikan memiliki satu atau lebih detail perbaikan.
 Relasi: One-to-Many
 
 ## 6. **RepairOrders ke Invoices**:
-Setiap pesanan perbaikan menghasilkan satu faktur.  
+Setiap pesanan perbaikan memiliki satu faktur.  
 Relasi: One-to-One
 
 ## 7. **Invoices ke Payments**:
-Setiap faktur dihubungkan dengan satu pembayaran.  
+Setiap faktur terhubung dengan satu pembayaran.  
 Relasi: One-to-One
 
 ## 8. **RepairOrders ke RepairParts**:
